@@ -1,3 +1,5 @@
+i solemnly swear that I did this project by myself:)
+
 # AndroidCalculator - Calculator exercise for Android developers
 
 ## In this project:
