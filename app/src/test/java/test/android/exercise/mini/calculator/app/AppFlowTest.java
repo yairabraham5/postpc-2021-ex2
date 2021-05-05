@@ -80,6 +80,8 @@ public class AppFlowTest {
   @Test
   public void flowTest2(){
     // run clicks on "7+5<backspace>4="
+
+    int i = 0;
     for (View button: Arrays.asList(
       button7, buttonPlus, button5, buttonBackspace, button4, buttonEquals
     )) {

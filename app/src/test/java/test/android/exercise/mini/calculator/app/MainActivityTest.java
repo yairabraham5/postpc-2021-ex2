@@ -24,7 +24,7 @@ import static org.mockito.ArgumentMatchers.eq;
 
 @RunWith(RobolectricTestRunner.class)
 @Config(sdk = {28})
-public class MainActivityTest {
+public class  MainActivityTest {
 
   private static final String DEFAULT_CALCULATOR_OUTPUT = "~~~ ready to start ~~~";
 
