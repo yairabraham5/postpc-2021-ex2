@@ -1,5 +1,13 @@
 i solemnly swear that I did this project by myself:)
 
+Answer to Question:
+To support multiplication we need to add functions to the calculator implementation.
+We also need to a listener to the multiplication button in the main activity.
+We can test the logic of the multiplication logic on the calculator.
+Adittionally test the UI on the activity and the UI on the app.
+
+
+
 # AndroidCalculator - Calculator exercise for Android developers
 
 ## In this project:

@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
       calculator = new SimpleCalculatorImpl();
     }
     TextView calcOutput = findViewById(R.id.textViewCalculatorOutput);
+
     calcOutput.setText(calculator.output());
     /*
     TODO:
@@ -144,7 +145,6 @@ public class MainActivity extends AppCompatActivity {
   @Override
   protected void onSaveInstanceState(@NonNull Bundle outState) {
     super.onSaveInstanceState(outState);
-
     outState.putSerializable("calculator", calculator.saveState());
   }
 
@@ -152,5 +152,7 @@ public class MainActivity extends AppCompatActivity {
   protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
     super.onRestoreInstanceState(savedInstanceState);
     calculator.loadState(savedInstanceState.getSerializable("calculator"));
+    TextView calcOutput = findViewById(R.id.textViewCalculatorOutput);
+    calcOutput.setText(calculator.output());
   }
 }
